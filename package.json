@@ -1,0 +1,14 @@
+{
+  "name": "goods-mono",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "webapp": "turbo run dev --filter=apps/goods-webapp",
+    "manager": "turbo run dev --filter=apps/goods-manager"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0"
+  }
+}
